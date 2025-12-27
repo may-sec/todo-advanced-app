@@ -32,6 +32,8 @@ A simple **full-stack Todo application** built with **React, Express, MongoDB, Z
 
 ## 📁 Project Structure
 
+```bash
+
 root/
 ├── backend/
 │   ├── db.js

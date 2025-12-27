@@ -1,6 +1,8 @@
+
 # 📝 Todo Advanced App
 
 A simple **full-stack Todo application** built with **React, Express, MongoDB, Zod, and Mongoose**.
+(Pics uploaded below)
 
 ---
 
@@ -129,3 +131,27 @@ npm run dev
 ## ⭐ Notes
 
 This project is built for learning and understanding **full-stack development** using **React and MongoDB**.
+
+
+## Pics
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/01_frontend_run.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/02_backend_run.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/03_mongo_before.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/04_postman_before.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/05_site_before.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/06_site_updating.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/07_alert_generated.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/08_site_updated.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/09_mongo_after.png" />
+
+<img width="931" alt="image" src="https://github.com/may-sec/todo-advanced-app/blob/main/pics/10_postman_after.png" />
+

@@ -1,4 +1,3 @@
-```md
 # 📝 Todo Advanced App
 
 A simple **full-stack Todo application** built with **React, Express, MongoDB, Zod, and Mongoose**.
@@ -32,8 +31,6 @@ A simple **full-stack Todo application** built with **React, Express, MongoDB, Z
 ---
 
 ## 📁 Project Structure
-
-```
 
 root/
 ├── backend/

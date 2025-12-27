@@ -1,53 +1,132 @@
-## Todo Advanced app
-This project contains a simple TODO application
-It has the following features -
-- Anyone can create a todo
-- Anyone can see their existing todos
-- Anyone can mark a todo as done
+```md
+# 📝 Todo Advanced App
 
-# Initialize a node project
-// put a package.json
+A simple **full-stack Todo application** built with **React, Express, MongoDB, Zod, and Mongoose**.
 
-# Establish backend
+---
 
-//cd backend
-//npn init
+## 🚀 Features
 
-//npm install express
-//npm install jsonwebtoken
-//create index.js
+- Create a new todo
+- View existing todos
+- Mark a todo as completed
 
-//npm install zod
-//create types.js
+---
 
-//npm install mongoose
-//create db.js
+## 🧱 Tech Stack
 
-//node index.js -> test backend
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Zod (for validation)
+- CORS
+- JSON Web Token (planned)
+- GitHub for version control
 
-//npm install cors
+### Frontend
+- React
+- Vite
 
-# Establish frontend
+---
 
-//npm run dev
+## 📁 Project Structure
 
-//rafce
+```
 
-# Backend
-Top level readme file
-Backend
-Express ap
-zod for validation
-mongoose for mongo connection
-MongoDb as the database
-github as the place to push code
+root/
+├── backend/
+│   ├── db.js
+│   ├── types.js
+│   ├── index.js
+│   ├── .env
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   └── package.json
+│
+└── README.md
 
+````
 
-# Frontend
-## 2 components
-1. create todo
-2. render todos
-## things to fix
-1. Infinite requests to get todos
-2. Not yet implemented udpate
-todos
+---
+
+## ⚙️ Backend Setup
+
+### Initialize Node project
+```bash
+cd backend
+npm init -y
+````
+
+### Install dependencies
+
+```bash
+npm install express cors mongoose zod jsonwebtoken dotenv
+```
+
+### Backend files
+
+* `index.js` → Express server
+* `db.js` → MongoDB & Mongoose setup
+* `types.js` → Zod validation schemas
+
+### Environment variables
+
+Create a `.env` file inside `backend/`:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+```
+
+### Run backend
+
+```bash
+node index.js
+```
+
+---
+
+## 🎨 Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Components
+
+1. Create Todo
+2. Render Todos
+
+---
+
+## 🐞 Known Issues / TODOs
+
+* Infinite requests while fetching todos
+* Update todo not implemented yet
+
+---
+
+## 🔮 Future Improvements
+
+* Authentication using JWT
+* Update and delete todo
+* Better error handling
+* UI improvements
+
+---
+
+## 📦 Deployment
+
+* Backend: Render / Railway
+* Frontend: Vercel
+
+---
+
+## ⭐ Notes
+
+This project is built for learning and understanding **full-stack development** using **React and MongoDB**.
